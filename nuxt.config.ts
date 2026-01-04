@@ -5,6 +5,23 @@ export default defineNuxtConfig({
 
   modules: ['@nuxt/eslint', '@nuxt/fonts', '@nuxt/icon', '@nuxt/image', '@nuxt/scripts'],
 
+  fonts: {
+    provider: 'google', // Устанавливаем Google Fonts по умолчанию, чтобы не обращаться к fontshare.com
+    defaults: {
+      weights: [400, 700],
+      styles: ['normal'],
+      subsets: ['latin']
+    },
+    families: [
+      {
+        name: 'Inter',
+        provider: 'google',
+        weights: [200, 300, 400, 500, 600, 700, 800, 900],
+        display: 'swap'
+      }
+    ]
+  },
+
   css: [
     '~/assets/css/bootstrap.min.css',
     '~/assets/css/lineicons.css',
