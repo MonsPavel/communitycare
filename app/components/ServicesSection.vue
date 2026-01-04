@@ -24,7 +24,7 @@
         <div class="col-lg-4 col-md-6">
           <div class="single-services">
             <div class="service-icon">
-              <i class="lni lni-capsule"/>
+              <i class="lni lni-headphone"/>
             </div>
             <div class="service-content">
               <h4>Консультация</h4>
@@ -37,7 +37,7 @@
         <div class="col-lg-4 col-md-6">
           <div class="single-services">
             <div class="service-icon">
-              <i class="lni lni-bootstrap"/>
+              <i class="lni lni-ambulance"/>
             </div>
             <div class="service-content">
               <h4>Социальный патруль</h4>
@@ -50,7 +50,7 @@
         <div class="col-lg-4 col-md-6">
           <div class="single-services">
             <div class="service-icon">
-              <i class="lni lni-shortcode"/>
+              <i class="lni lni-shopping-basket"/>
             </div>
             <div class="service-content">
               <h4>Получение вещей первой необходимости</h4>
@@ -63,7 +63,7 @@
         <div class="col-lg-4 col-md-6">
           <div class="single-services">
             <div class="service-icon">
-              <i class="lni lni-dashboard"/>
+              <i class="lni lni-files"/>
             </div>
             <div class="service-content">
               <h4>Восстановление документов</h4>
@@ -76,7 +76,7 @@
         <div class="col-lg-4 col-md-6">
           <div class="single-services">
             <div class="service-icon">
-              <i class="lni lni-layers"/>
+              <i class="lni lni-graduation"/>
             </div>
             <div class="service-content">
               <h4>Приобщение к труду</h4>
@@ -89,7 +89,7 @@
         <div class="col-lg-4 col-md-6">
           <div class="single-services">
             <div class="service-icon">
-              <i class="lni lni-reload"/>
+              <i class="lni lni-users"/>
             </div>
             <div class="service-content">
               <h4>Карьерный рост</h4>

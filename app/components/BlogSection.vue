@@ -25,10 +25,7 @@
           <!-- Single News -->
           <div class="single-news">
             <div class="image">
-              <a href="javascript:void(0)"><img class="thumb" src="assets/images/blog/1.jpg" alt="Blog" ></a>
-              <div class="meta-details">
-                <img class="thumb" src="assets/images/blog/b6.jpg" alt="Author" >
-              </div>
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/blog/1.png" alt="Blog" ></a>
             </div>
             <div class="content-body">
               <h4 class="title">
@@ -46,11 +43,7 @@
           <!-- Single News -->
           <div class="single-news">
             <div class="image">
-              <a href="javascript:void(0)"><img class="thumb" src="assets/images/blog/2.jpg" alt="Blog" ></a>
-              <div class="meta-details">
-                <img class="thumb" src="assets/images/blog/b6.jpg" alt="Author" >
-                
-              </div>
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/blog/2.png" alt="Blog" ></a>
             </div>
             <div class="content-body">
               <h4 class="title">
@@ -70,11 +63,7 @@
           <!-- Single News -->
           <div class="single-news">
             <div class="image">
-              <a href="javascript:void(0)"><img class="thumb" src="assets/images/blog/3.jpg" alt="Blog" ></a>
-              <div class="meta-details">
-                <img class="thumb" src="assets/images/blog/b6.jpg" alt="Author" >
-                
-              </div>
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/blog/3.png" alt="Blog" ></a>
             </div>
             <div class="content-body">
               <h4 class="title">

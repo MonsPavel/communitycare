@@ -88,7 +88,7 @@ class="shape" width="106" height="134" viewBox="0 0 106 134" fill="none"
               <circle cx="60.333" cy="132" r="1.66667" fill="#DADADA" />
               <circle cx="104" cy="132" r="1.66667" fill="#DADADA" />
             </svg>
-            <img src="assets/images/about/about-img1.jpg" alt="about" >
+            <img src="assets/images/about/about-img1.png" alt="about" >
           </div>
         </div>
         <div class="col-lg-6 col-12">
@@ -100,42 +100,27 @@ class="shape" width="106" height="134" viewBox="0 0 106 134" fill="none"
                 <div id="nav-tab" class="nav nav-tabs" role="tablist">
                   <button
 id="nav-who-tab" class="nav-link active" data-bs-toggle="tab" data-bs-target="#nav-who"
-                    type="button" role="tab" aria-controls="nav-who" aria-selected="true">Who We Are</button>
+                    type="button" role="tab" aria-controls="nav-who" aria-selected="true">Кто мы</button>
                   <button
 id="nav-vision-tab" class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-vision"
-                    type="button" role="tab" aria-controls="nav-vision" aria-selected="false">our Vision</button>
+                    type="button" role="tab" aria-controls="nav-vision" aria-selected="false">Наша миссия</button>
                   <button
 id="nav-history-tab" class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-history"
-                    type="button" role="tab" aria-controls="nav-history" aria-selected="false">our History</button>
+                    type="button" role="tab" aria-controls="nav-history" aria-selected="false">Наша история</button>
                 </div>
               </nav>
               <div id="nav-tabContent" class="tab-content">
                 <div id="nav-who" class="tab-pane fade show active" role="tabpanel" aria-labelledby="nav-who-tab">
-                  <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                    when
-                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                    distribution of letters, look like readable English.</p>
-                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have in some
-                    form,
-                    by injected humour.</p>
+                  <p>Мы — команда профессионалов и волонтеров, объединенных общей целью помочь людям, оказавшимся в сложных жизненных ситуациях. Наша организация предоставляет комплексную поддержку: от временного жилья и базовых потребностей до помощи в восстановлении документов и социальной адаптации.</p>
+                  <p>Мы верим, что каждый человек заслуживает шанс на новую жизнь, независимо от обстоятельств, в которые он попал. Наша команда работает с полной отдачей, чтобы вернуть людям надежду и помочь им встать на ноги.</p>
                 </div>
                 <div id="nav-vision" class="tab-pane fade" role="tabpanel" aria-labelledby="nav-vision-tab">
-                  <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                    when
-                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                    distribution of letters, look like readable English.</p>
-                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have in some
-                    form,
-                    by injected humour.</p>
+                  <p>Наша миссия — создать безопасное пространство, где каждый человек, попавший в беду, может получить необходимую помощь и поддержку. Мы стремимся не просто решить сиюминутные проблемы, но и помочь людям восстановить самостоятельность и вернуться к полноценной жизни в обществе.</p>
+                  <p>Мы работаем над тем, чтобы наша помощь была доступной, своевременной и эффективной. Каждый обратившийся к нам человек получает индивидуальный подход и комплексное решение своих проблем.</p>
                 </div>
                 <div id="nav-history" class="tab-pane fade" role="tabpanel" aria-labelledby="nav-history-tab">
-                  <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                    when
-                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                    distribution of letters, look like readable English.</p>
-                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have in some
-                    form,
-                    by injected humour.</p>
+                  <p>Наша организация была основана группой неравнодушных людей, которые увидели острую необходимость в системной помощи людям, оказавшимся без жилья, работы или в других кризисных ситуациях. Начиная с небольших инициатив, мы постепенно выросли в полноценную организацию с профессиональной командой.</p>
+                  <p>За годы работы мы помогли сотням людей восстановить документы, найти работу, получить временное жилье и вернуться к нормальной жизни. Каждая история успеха вдохновляет нас продолжать нашу работу и расширять возможности помощи.</p>
                 </div>
               </div>
             </div>

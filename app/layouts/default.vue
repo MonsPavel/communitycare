@@ -52,32 +52,28 @@
     <footer class="footer-area footer-eleven bg-light mt-8">
       <div class="footer-top py-6">
         <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <a href="/"><img src="/assets/images/logo.png" alt="Logo" style="height:32px"></a>
-              <p class="mt-3 text-muted">Support and resources for people in need.</p>
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <a href="/">
+                <img src="/assets/images/logo.png" alt="Логотип" style="height:40px; filter: brightness(0) contrast(1.2);">
+              </a>
+              <p class="mt-3 text-muted mb-0">Поддержка и ресурсы для людей, оказавшихся в сложных жизненных ситуациях.</p>
             </div>
-            <div class="col-md-4">
-              <h5>Links</h5>
-              <ul class="list-unstyled">
-                <li><NuxtLink to="#services">Services</NuxtLink></li>
-                <li><NuxtLink to="#pricing">Pricing</NuxtLink></li>
-                <li><NuxtLink to="#contact">Contact</NuxtLink></li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              <h5>Contact</h5>
-              <p class="mb-0">email@example.org</p>
-              <p>+1 (555) 123-4567</p>
+            <div class="col-md-6 text-md-end">
+              <h5>Контакты</h5>
+              <p class="mb-0">
+                <a href="tel:+79179014273" class="text-decoration-none">+7 (917) 901-42-73</a>
+              </p>
             </div>
           </div>
         </div>
       </div>
-      <div class="text-center py-3 text-muted small">© 2025 — All rights reserved</div>
+      <div class="text-center py-3 text-muted small">© {{ currentYear }} — Все права защищены</div>
     </footer>
   </div>
 </template>
 
 <script setup lang="ts">
 // Global JS initialization for plugins will be executed in onMounted of root page
+const currentYear = new Date().getFullYear()
 </script>
