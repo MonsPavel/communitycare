@@ -97,31 +97,41 @@ class="shape" width="106" height="134" viewBox="0 0 106 134" fill="none"
             <h2 class="main-title fw-bold">Мы оказываем помощь людям попавшим в сложную жизненную ситуацию.</h2>
             <div class="about-five-tab">
               <nav>
-                <div id="nav-tab" class="nav nav-tabs" role="tablist">
+                <div class="nav nav-tabs" role="tablist">
                   <button
-id="nav-who-tab" class="nav-link active" data-bs-toggle="tab" data-bs-target="#nav-who"
-                    type="button" role="tab" aria-controls="nav-who" aria-selected="true">Кто мы</button>
-                  <button
-id="nav-vision-tab" class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-vision"
-                    type="button" role="tab" aria-controls="nav-vision" aria-selected="false">Наша миссия</button>
-                  <button
-id="nav-history-tab" class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-history"
-                    type="button" role="tab" aria-controls="nav-history" aria-selected="false">Наша история</button>
+                    v-for="tab in tabs"
+                    :key="tab.id"
+                    :class="['nav-link', { active: activeTab === tab.id }]"
+                    type="button"
+                    role="tab"
+                    :aria-selected="activeTab === tab.id"
+                    @click="setActiveTab(tab.id)"
+                  >
+                    {{ tab.label }}
+                  </button>
                 </div>
               </nav>
-              <div id="nav-tabContent" class="tab-content">
-                <div id="nav-who" class="tab-pane fade show active" role="tabpanel" aria-labelledby="nav-who-tab">
-                  <p>Мы — команда профессионалов и волонтеров, объединенных общей целью помочь людям, оказавшимся в сложных жизненных ситуациях. Наша организация предоставляет комплексную поддержку: от временного жилья и базовых потребностей до помощи в восстановлении документов и социальной адаптации.</p>
-                  <p>Мы верим, что каждый человек заслуживает шанс на новую жизнь, независимо от обстоятельств, в которые он попал. Наша команда работает с полной отдачей, чтобы вернуть людям надежду и помочь им встать на ноги.</p>
-                </div>
-                <div id="nav-vision" class="tab-pane fade" role="tabpanel" aria-labelledby="nav-vision-tab">
-                  <p>Наша миссия — создать безопасное пространство, где каждый человек, попавший в беду, может получить необходимую помощь и поддержку. Мы стремимся не просто решить сиюминутные проблемы, но и помочь людям восстановить самостоятельность и вернуться к полноценной жизни в обществе.</p>
-                  <p>Мы работаем над тем, чтобы наша помощь была доступной, своевременной и эффективной. Каждый обратившийся к нам человек получает индивидуальный подход и комплексное решение своих проблем.</p>
-                </div>
-                <div id="nav-history" class="tab-pane fade" role="tabpanel" aria-labelledby="nav-history-tab">
-                  <p>Наша организация была основана группой неравнодушных людей, которые увидели острую необходимость в системной помощи людям, оказавшимся без жилья, работы или в других кризисных ситуациях. Начиная с небольших инициатив, мы постепенно выросли в полноценную организацию с профессиональной командой.</p>
-                  <p>За годы работы мы помогли сотням людей восстановить документы, найти работу, получить временное жилье и вернуться к нормальной жизни. Каждая история успеха вдохновляет нас продолжать нашу работу и расширять возможности помощи.</p>
-                </div>
+              <div class="tab-content">
+                <Transition name="fade" mode="out-in">
+                  <div
+                    :key="activeTab"
+                    class="tab-pane fade show active"
+                    role="tabpanel"
+                  >
+                    <template v-if="activeTab === 'who'">
+                      <p>Мы — команда профессионалов и волонтеров, объединенных общей целью помочь людям, оказавшимся в сложных жизненных ситуациях. Наша организация предоставляет комплексную поддержку: от временного жилья и базовых потребностей до помощи в восстановлении документов и социальной адаптации.</p>
+                      <p>Мы верим, что каждый человек заслуживает шанс на новую жизнь, независимо от обстоятельств, в которые он попал. Наша команда работает с полной отдачей, чтобы вернуть людям надежду и помочь им встать на ноги.</p>
+                    </template>
+                    <template v-else-if="activeTab === 'vision'">
+                      <p>Наша миссия — создать безопасное пространство, где каждый человек, попавший в беду, может получить необходимую помощь и поддержку. Мы стремимся не просто решить сиюминутные проблемы, но и помочь людям восстановить самостоятельность и вернуться к полноценной жизни в обществе.</p>
+                      <p>Мы работаем над тем, чтобы наша помощь была доступной, своевременной и эффективной. Каждый обратившийся к нам человек получает индивидуальный подход и комплексное решение своих проблем.</p>
+                    </template>
+                    <template v-else-if="activeTab === 'history'">
+                      <p>Наша организация была основана группой неравнодушных людей, которые увидели острую необходимость в системной помощи людям, оказавшимся без жилья, работы или в других кризисных ситуациях. Начиная с небольших инициатив, мы постепенно выросли в полноценную организацию с профессиональной командой.</p>
+                      <p>За годы работы мы помогли сотням людей восстановить документы, найти работу, получить временное жилье и вернуться к нормальной жизни. Каждая история успеха вдохновляет нас продолжать нашу работу и расширять возможности помощи.</p>
+                    </template>
+                  </div>
+                </Transition>
               </div>
             </div>
           </div>
@@ -133,9 +143,32 @@ id="nav-history-tab" class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-
 </template>
 
 <script setup lang="ts">
-import { onMounted } from 'vue'
-// Scripts from original template (if needed) will be initialized in layout or component-specific onMounted
-onMounted(()=>{
-  // Initialize JS plugins if present (glightbox, tiny-slider) - handled globally in layout
-})
+import { ref } from 'vue'
+
+// Определение табов
+const tabs = [
+  { id: 'who', label: 'Кто мы' },
+  { id: 'vision', label: 'Наша миссия' },
+  { id: 'history', label: 'Наша история' }
+]
+
+// Активный таб (кешируется автоматически через Vue реактивность)
+const activeTab = ref<string>('who')
+
+// Функция для установки активного таба
+const setActiveTab = (tabId: string) => {
+  activeTab.value = tabId
+}
 </script>
+
+<style scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>
