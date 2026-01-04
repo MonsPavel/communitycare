@@ -9,6 +9,9 @@
               ЕЖЕДНЕВНЫЕ ВЫПЛАТЫ!<br>
               РАБОТА КАЖДОМУ ПО СИЛАМ!
             </p>
+            <div class="button mt-4">
+              <a class="btn primary-btn" href="tel:+79179014273">НАЧАТЬ</a>
+            </div>
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-12">

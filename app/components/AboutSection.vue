@@ -1,5 +1,5 @@
 <template>
-    <section class="about-area about-five">
+    <section id="about" class="about-area about-five">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 col-12">

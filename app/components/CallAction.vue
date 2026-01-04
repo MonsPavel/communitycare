@@ -11,7 +11,7 @@
   Каждый человек заслуживает шанс на новую жизнь.
             </p>
 <div class="light-rounded-buttons">
-<a class="btn primary-btn-outline" href="javascript:void(0)">НАЧАТЬ</a>
+<a class="btn primary-btn-outline" href="tel:+79179014273">НАЧАТЬ</a>
 </div>
 </div>
 </div>

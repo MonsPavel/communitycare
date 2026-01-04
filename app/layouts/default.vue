@@ -6,11 +6,9 @@
         <div class="row">
           <div class="col-lg-12">
       <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="index.html">
-              <NuxtLink to="/" class="navbar-brand">
-                <img src="/assets/images/logo.png" alt="Logo" style="height:36px">
-              </NuxtLink>
-            </a>
+            <NuxtLink to="/" class="navbar-brand">
+              <img src="/assets/images/logo.png" alt="Logo" style="height:36px">
+            </NuxtLink>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNine" aria-controls="navbarNine" aria-expanded="false" aria-label="Toggle navigation">
               <span class="toggler-icon"/>
               <span class="toggler-icon"/>
@@ -20,24 +18,23 @@
             <div id="navbarNine" class="collapse navbar-collapse sub-menu-bar">
               <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                  <NuxtLink class="page-scroll active" to="#hero-area">Home</NuxtLink>
+                  <NuxtLink class="page-scroll active" to="#hero-area">Главная</NuxtLink>
                 </li>
                 <li class="nav-item">
-                  <NuxtLink class="page-scroll" to="#services">Services</NuxtLink>
-                </li>
-
-                <li class="nav-item">
-                  <NuxtLink class="page-scroll" to="#pricing">Pricing</NuxtLink>
+                  <NuxtLink class="page-scroll" to="#about">О нас</NuxtLink>
                 </li>
                 <li class="nav-item">
-                  <NuxtLink class="page-scroll" to="#contact">Contact</NuxtLink>
+                  <NuxtLink class="page-scroll" to="#services">Услуги</NuxtLink>
+                </li>
+                <li class="nav-item">
+                  <NuxtLink class="page-scroll" to="#blog">Кому мы помогаем</NuxtLink>
                 </li>
               </ul>
             </div>
 
-            <div class="navbar-btn d-none d-lg-inline-block">
+            <!-- <div class="navbar-btn d-none d-lg-inline-block">
               <a class="menu-bar" href="#side-menu-left"><i class="lni lni-menu"/></a>
-            </div>
+            </div> -->
           </nav>
         </div>
       </div>
