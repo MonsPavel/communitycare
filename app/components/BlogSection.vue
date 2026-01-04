@@ -25,7 +25,7 @@
           <!-- Single News -->
           <div class="single-news">
             <div class="image">
-              <a href="javascript:void(0)"><img class="thumb" src="assets/images/blog/1.png" alt="Blog" ></a>
+              <a href="javascript:void(0)"><img class="thumb" src="/assets/images/blog/1.png" alt="Blog" ></a>
             </div>
             <div class="content-body">
               <h4 class="title">
@@ -43,7 +43,7 @@
           <!-- Single News -->
           <div class="single-news">
             <div class="image">
-              <a href="javascript:void(0)"><img class="thumb" src="assets/images/blog/2.png" alt="Blog" ></a>
+              <a href="javascript:void(0)"><img class="thumb" src="/assets/images/blog/2.png" alt="Blog" ></a>
             </div>
             <div class="content-body">
               <h4 class="title">
@@ -63,7 +63,7 @@
           <!-- Single News -->
           <div class="single-news">
             <div class="image">
-              <a href="javascript:void(0)"><img class="thumb" src="assets/images/blog/3.png" alt="Blog" ></a>
+              <a href="javascript:void(0)"><img class="thumb" src="/assets/images/blog/3.png" alt="Blog" ></a>
             </div>
             <div class="content-body">
               <h4 class="title">

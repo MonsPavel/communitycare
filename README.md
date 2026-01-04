@@ -1,75 +1,60 @@
-# Nuxt Minimal Starter
+# Community Care
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Веб-сайт организации, оказывающей помощь людям в сложных жизненных ситуациях.
 
-## Setup
+## Технологии
 
-Make sure to install dependencies:
+- Nuxt 4
+- Vue 3
+- Bootstrap 5
+- TypeScript
+
+## Разработка
+
+Установите зависимости:
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+Запустите dev-сервер:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+Сайт будет доступен на `http://localhost:3000`
 
-Build the application for production:
+## Деплой на GitHub Pages
+
+Проект настроен для автоматического деплоя на GitHub Pages через GitHub Actions.
+
+### Настройка
+
+1. Убедитесь, что ваш репозиторий называется `communitycare` (или измените `baseURL` в `nuxt.config.ts`)
+2. В настройках репозитория GitHub:
+   - Перейдите в Settings → Pages
+   - В разделе "Source" выберите "GitHub Actions"
+3. Запушьте код в ветку `main` - деплой запустится автоматически
+
+### Ручной деплой
+
+Для ручного деплоя выполните:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+npm run generate
 ```
 
-Locally preview production build:
+Затем загрузите содержимое папки `.output/public` на GitHub Pages.
 
-```bash
-# npm
-npm run preview
+## Структура проекта
 
-# pnpm
-pnpm preview
+- `app/components/` - Vue компоненты
+- `app/layouts/` - Layouts
+- `app/pages/` - Страницы
+- `app/assets/` - Статические ресурсы (CSS, изображения)
+- `public/` - Публичные файлы
 
-# yarn
-yarn preview
+## Лицензия
 
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Все права защищены © 2024

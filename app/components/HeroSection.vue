@@ -13,7 +13,7 @@
         </div>
         <div class="col-lg-6 col-md-12 col-12">
           <div class="header-image">
-            <img src="assets/images/header/hero-image.png" alt="#" >
+            <img src="/assets/images/header/hero-image.png" alt="#" >
           </div>
         </div>
       </div>

@@ -88,7 +88,7 @@ class="shape" width="106" height="134" viewBox="0 0 106 134" fill="none"
               <circle cx="60.333" cy="132" r="1.66667" fill="#DADADA" />
               <circle cx="104" cy="132" r="1.66667" fill="#DADADA" />
             </svg>
-            <img src="assets/images/about/about-img1.png" alt="about" >
+            <img src="/assets/images/about/about-img1.png" alt="about" >
           </div>
         </div>
         <div class="col-lg-6 col-12">

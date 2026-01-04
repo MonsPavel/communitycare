@@ -2,7 +2,8 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-
+  
+  // GitHub Pages configuration
   modules: ['@nuxt/eslint', '@nuxt/fonts', '@nuxt/icon', '@nuxt/image', '@nuxt/scripts'],
 
   fonts: {
@@ -31,11 +32,15 @@ export default defineNuxtConfig({
   ],
 
   app: {
+    baseURL: process.env.NODE_ENV === 'production' && process.env.GITHUB_REPOSITORY 
+      ? `/${process.env.GITHUB_REPOSITORY.split('/')[1]}/` 
+      : '/',
+    buildAssetsDir: '/_nuxt/',
     head: {
-      title: 'Converted Bootstrap Template - Nuxt 4',
+      title: 'Community Care - Помощь людям в сложных жизненных ситуациях',
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: 'Bootstrap template converted to Nuxt 4' }
+        { name: 'description', content: 'Поддержка и ресурсы для людей, оказавшихся в сложных жизненных ситуациях. Помощь с жильём, работой и восстановлением документов.' }
       ],
       script: [
         { src: '/js/bootstrap.bundle.min.js', body: true },
